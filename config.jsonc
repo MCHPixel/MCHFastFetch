@@ -1,0 +1,329 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+
+
+  "logo": {
+    "type": "file",
+    "source": "C:/Users/schul/.config/fastfetch/output.txt",
+    "color": {
+      "1": "#89B4FA",
+      "2": "#74C7EC",
+      "3": "#89DCEB",
+      "4": "#94E2D5",
+      "5": "#A6E3A1",
+      "6": "#F9E2AF",
+      "7": "#FAB387",
+      "8": "#F5C2E7",
+      "9": "#F2CDCD"
+    },
+    
+    "padding": {
+      "top": 1,
+      "right": 4,
+      "left": 2
+    }
+  },
+
+
+  "display": {
+    "separator": " "
+  },
+
+
+  "modules": [
+    "break",
+    {
+      "type": "custom",
+      "format": "Hello, Fabian! Mrrrrow! 󰄛",
+      "outputColor": "#F5C2E7"
+    },
+
+
+    "break",
+
+
+    {
+      "type": "custom",
+      "format": "╭─────────────────────────── Informations ───────────────────────────╮",
+      "outputColor": "#fafafa"
+    },
+
+
+    {
+      "type": "datetime",
+      "key": "│ 󰥔   DateTime  ",
+      "keyColor": "#89B4FA",
+      "outputColor": "#CDD6F4"
+    },
+
+
+    {
+      "type": "board",
+      "key": "│ 󰍹   Board     ",
+      "keyColor": "#89B4FA",
+      "outputColor": "#CDD6F4"
+    },
+
+
+    {
+      "type": "custom",
+      "format": "╰────────────────────────────────────────────────────────────────────╯",
+      "outputColor": "#fafafa"
+    },
+
+
+
+
+    "break",
+
+
+
+
+    {
+      "type": "custom",
+      "format": "╭───────────────────────────── Hardware ─────────────────────────────╮",
+      "outputColor": "#fafafa"
+    },
+
+
+    {
+      "type": "host",
+      "key": "│ 󰹑   Host      ",
+      "keyColor": "#89B4FA",
+      "outputColor": "#CDD6F4",
+      "format": "{name}"
+    },
+
+
+    {
+      "type": "custom",
+      "format": "│",
+      "outputColor": "#fafafa"
+    },
+
+
+    {
+      "type": "cpu",
+      "key": "│    CPU       ",
+      "keyColor": "#F5C2E7",
+      "outputColor": "#CDD6F4",
+      "format": "{name}"
+    },
+
+
+    {
+      "type": "gpu",
+      "key": "│ 󰊴   GPU       ",
+      "keyColor": "#FAB387",
+      "outputColor": "#CDD6F4",
+      "format": "{name}"
+    },
+
+
+    {
+      "type": "memory",
+      "key": "│    Memory    ",
+      "keyColor": "#A6E3A1",
+      "outputColor": "#CDD6F4",
+      "format": "{used} / {total} ({percentage})"
+    },
+
+
+    {
+      "type": "custom",
+      "format": "│",
+      "outputColor": "#fafafa"
+    },
+
+
+    {
+      "type": "disk",
+      "key": "│ 󰗮   Disk      ",
+      "keyColor": "#F9E2AF",
+      "outputColor": "#CDD6F4"
+    },
+
+
+    {
+      "type": "custom",
+      "format": "╰────────────────────────────────────────────────────────────────────╯",
+      "outputColor": "#fafafa"
+    },
+
+
+
+
+    "break",
+
+
+
+
+    {
+      "type": "custom",
+      "format": "╭───────────────────────────── Software ─────────────────────────────╮",
+      "outputColor": "#fafafa"
+    },
+
+
+    {
+      "type": "os",
+      "key": "│ 󰌌   OS        ",
+      "keyColor": "#89B4FA",
+      "outputColor": "#CDD6F4"
+    },
+
+
+    {
+      "type": "kernel",
+      "key": "│    Kernel    ",
+      "keyColor": "#74C7EC",
+      "outputColor": "#CDD6F4"
+    },
+
+
+    {
+      "type": "shell",
+      "key": "│ >_  Shell     ",
+      "keyColor": "#CBA6F7",
+      "outputColor": "#CDD6F4"
+    },
+
+
+    {
+      "type": "terminal",
+      "key": "│ 🖳   Terminal  ",
+      "keyColor": "#F38BA8",
+      "outputColor": "#CDD6F4"
+    },
+
+
+    {
+      "type": "custom",
+      "format": "╰────────────────────────────────────────────────────────────────────╯",
+      "outputColor": "#fafafa"
+    },
+
+
+
+
+    "break",
+
+
+
+
+    {
+      "type": "custom",
+      "format": "╭───────────────────────── Session / Theme ──────────────────────────╮",
+      "outputColor": "#fafafa"
+    },
+
+
+    {
+      "type": "wm",
+      "key": "│ 󱂬   WM        ",
+      "keyColor": "#89B4FA",
+      "outputColor": "#CDD6F4"
+    },
+
+
+    {
+      "type": "theme",
+      "key": "│ 󰏘   Theme     ",
+      "keyColor": "#74C7EC",
+      "outputColor": "#CDD6F4"
+    },
+
+
+    {
+      "type": "uptime",
+      "key": "│    Uptime    ",
+      "keyColor": "#89DCEB",
+      "outputColor": "#CDD6F4"
+    },
+
+
+    {
+      "type": "media",
+      "key": "│    Media     ",
+      "keyColor": "#F5C2E7",
+      "outputColor": "#CDD6F4",
+      "format": "{title} - {artist}"
+    },
+
+
+    {
+      "type": "custom",
+      "format": "╰────────────────────────────────────────────────────────────────────╯",
+      "outputColor": "#fafafa"
+    },
+
+
+
+
+    "break",
+
+
+
+
+
+    {
+      "type": "custom",
+      "format": "╭──────────────────────────── Networking ────────────────────────────╮",
+      "outputColor": "#fafafa"
+    },
+
+
+    {
+      "type": "wifi",
+      "key": "│ 󰖩   Wifi      ",
+      "keyColor": "#A6E3A1",
+      "outputColor": "#CDD6F4"
+    },
+    {
+      "type": "localip",
+      "key": "│ 󰩟   IP        ",
+      "keyColor": "#F9E2AF",
+      "outputColor": "#CDD6F4"
+    },
+    {
+      "type": "dns",
+      "key": "│ 󰛳   Gateway   ",
+      "keyColor": "#F5C2E7",
+      "outputColor": "#CDD6F4"
+    },
+    {
+      "type": "custom",
+      "format": "│",
+      "outputColor": "#fafafa"
+    },
+    
+    {
+      "type": "bluetooth",
+      "key": "│ 󰂯   Bluetooth ",
+      "keyColor": "#89B4FA",
+      "outputColor": "#CDD6F4"
+    },
+
+
+    {
+      "type": "custom",
+      "format": "╰────────────────────────────────────────────────────────────────────╯",
+      "outputColor": "#fafafa"
+    },
+
+
+
+
+    "break",
+
+
+
+
+
+    {
+      "type": "colors",
+      "symbol": "circle",
+      "paddingLeft": 2
+    }
+  ]
+}
