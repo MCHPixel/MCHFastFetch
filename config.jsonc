@@ -4,7 +4,7 @@
 
   "logo": {
     "type": "file",
-    "source": "C:/Users/schul/.config/fastfetch/ascii.txt",
+    "source": "C:/Users/%USERNAME%/.config/fastfetch/ascii.txt",
     "color": {
       "1": "#89B4FA",
       "2": "#74C7EC",
