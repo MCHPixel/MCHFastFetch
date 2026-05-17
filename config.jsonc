@@ -34,7 +34,7 @@
     "break",
     {
       "type": "custom",
-      "format": "Hello, Fabian! Mrrrrow! 󰄛",
+      "format": "Hello, (Your Name Here)! Mrrrrow! 󰄛",
       "outputColor": "#F5C2E7"
     },
 
